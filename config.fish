@@ -8,6 +8,8 @@ set -x EDITOR 'code --wait'
 
 set -x SKIM_DEFAULT_COMMAND "fd --type f"
 
+set -U fish_greeting
+
 set -x CARGO_TARGET_DIR $HOME/.cargo/shared_target
 set PATH $HOME/.cargo/bin/ $PATH
 
